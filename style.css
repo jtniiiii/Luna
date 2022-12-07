@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.page-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.page-header {
+    padding: 55px 160px 120px;
+    color: #D4D4D4;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.header-logo {
+    margin-right: 60px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0;
+}
+
+.menu-item a {
+    color: #D4D4D4;
+    text-decoration: none;
+}
+
+.welcome {
+    max-width: 255px;
+    margin-left: 120px;
+}
+
+.welcome-title {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.welcome-text {
+    margin-bottom: 50px;
+} 
+
+.header-button {
+    background-color: #FFCB06;
+    border-radius: 25px;
+    border: 0;
+    padding: 15px 100px 15px 40px;
+}
+
+.header-contacts {
+    height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.advantages {
+    display: flex;
+    color: #ffffff;
+    background-color: #222222;
+    padding: 0 160px 80px;
+    gab: 80px;
+}
+
+.align-items {
+    flex-grow: 1;
+    flex-basis: 0;
+}
