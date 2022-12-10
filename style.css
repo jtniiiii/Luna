@@ -87,3 +87,60 @@
     flex-grow: 1;
     flex-basis: 0;
 }
+
+.content {
+    padding: 80px 160px 126px;  
+}
+
+.content-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.content-top-image, .content-top-text {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.content-top-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content-heading {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 45px;
+}
+
+.content-text:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.content-bottom-one, .content-bottom-two {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.content-bottom {
+    padding: 50px 0;
+}
+
+.lu {
+    list-style-image: url(img/Ellipse 1.png);
+}
+
+.li {
+    padding-left: 20px;
+}
