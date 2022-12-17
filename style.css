@@ -6,6 +6,23 @@
     font-weight: 400;
     font-size: 14px;
 }
+.h2 {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.h3 {
+    font-family: 'Verdana';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D4D4D4;
+    text-transform: uppercase;
+}
 
 .page-container {
     max-width: 1280px;
@@ -110,11 +127,6 @@
 }
 
 .content-heading {
-    font-family: 'Courier New';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
     margin-bottom: 45px;
 }
 
@@ -126,21 +138,55 @@
     display: flex;
     justify-content: space-between;
     gap: 80px;
+    padding: 50px 0;
 }
 
 .content-bottom-one, .content-bottom-two {
     flex-grow: 1;
     flex-basis: 0;
 }
-
-.content-bottom {
-    padding: 50px 0;
-}
-
-.lu {
+.content-list {
+    padding: 0;
     list-style-image: url(img/Ellipse 1.png);
+    padding-left: 15px;
 }
 
-.li {
-    padding-left: 20px;
+.content-list span {
+    font-weight: bold;
+}
+
+.content-list li {
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+.page-footer {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    padding: 60px 160px 90px;
+    background-color: #131313;
+}
+
+.footer-item {
+    flex: 1;
+    color: #D4D4D4;
+}
+
+.footer-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-list a {
+    color: #888888;
+    text-decoration: none;
+}
+
+.footer-heading {
+    margin-bottom: 15px;
+}
+
+.page-footer hr {
+    margin-bottom: 60px;
 }
