@@ -190,3 +190,22 @@
 .page-footer hr {
     margin-bottom: 60px;
 }
+
+.footer-list li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.footer-item:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    margin-right: 15px;
+}
